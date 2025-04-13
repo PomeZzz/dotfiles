@@ -62,7 +62,7 @@ nvim
 
 ## Fonts 🔤
 --
-I mainly use "Ubuntu nerd fonts" for the system fonts, go to nerd fonts and grab them there.
+I mainly use "Ubuntu nerd fonts" for the system fonts, go to nerd fonts and grab them there [Here](https://www.nerdfonts.com/).
 
 ---
 
