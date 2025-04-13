@@ -1,0 +1,11 @@
+---
+"workspace:activate_fifth_tab": alt-5
+"editor_view:insert_autosuggestion": tab
+"workspace:create_team_env_vars": none
+"workspace:activate_fourth_tab": alt-4
+"editor_view:add_cursor_below": ctrl-down
+"workspace:activate_second_tab": alt-2
+"editor_view:add_cursor_above": ctrl-up
+"workspace:activate_first_tab": alt-1
+"input:open_completion_suggestions": ctrl-space
+"workspace:activate_third_tab": alt-3
