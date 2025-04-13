@@ -1,0 +1,75 @@
+o//   _____ _____ _____ _____ _____ _____ _____ _____ _____ 
+//  |   __|  _  |   __|_   _|   __|   __|_   _|     |  |  |
+//  |   __|     |__   | | | |   __|   __| | | |   --|     |
+//  |__|  |__|__|_____| |_| |__|  |_____| |_| |_____|__|__|  ARCH  
+//
+//  by Bina
+
+
+// execute with: fastfetch --colors-block-range-start 9 --colors-block-width 3
+
+{
+	"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+	{
+		{
+			"logo": {
+				"type": "ascii",
+				"source": "Arch",
+				"padding": 1
+			},
+			"display": {
+				"separator": "  ",
+				"keyWidth": 10,
+				"valueColor": "default",
+				"keyColor": "gray"
+			},
+			"modules": [
+				{
+					"type": "user"
+				},
+				{
+					"type": "host"
+				},
+				{
+					"type": "os"
+				},
+				{
+					"type": "kernel"
+				},
+				{
+					"type": "uptime"
+				},
+				{
+					"type": "shell"
+				},
+				{
+					"type": "packages"
+				},
+				{
+					"type": "memory",
+					"compactType": true
+				},
+				{
+					"type": "colors"
+				}
+			],
+			"colors": {
+				"separator": " │ ",
+				"colors": [
+					"red",
+					"orange",
+					"yellow",
+					"green",
+					"cyan",
+					"blue",
+					"magenta",
+					"gray"
+				]
+			},
+			"footer": {
+				"type": "execution_time",
+				"format": "Executed in ${time} millis",
+				"colors": true
+			}
+		}
+

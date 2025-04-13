@@ -1,0 +1,12 @@
+ user  
+ hname  
+ uptime  
+ distro  
+ kernel  
+ desktop  
+ term  
+ shell  
+ cpu  
+ disk  
+ memory
+

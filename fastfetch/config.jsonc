@@ -1,0 +1,120 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "type":"file",
+        "source": "/home/pome/.config/fastfetch/out.txt",
+        "padding": {
+            "top": 3,          
+            "left": 0,         
+            "right": 5         
+        },
+        "color": {             
+            "1": "black"
+        }    
+    },
+    
+    
+    "modules": [
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[38;5;102m         Snorlax | Pome "
+        },
+        {
+            "type": "custom",
+            "format": "╭───────────────────────────────╮"
+        },
+        {
+            "type": "os",
+            "key": "  ",
+            "format": "{2} 24.10",
+            "keyColor": "black"
+        },
+        {
+                    "type": "host",
+                    "key": "  ",
+                    "keyColor": "black"
+
+                },
+        {
+            "type": "kernel",
+            "key": "  ",
+            "format": "{1} 6.11.o",
+            "keyColor": "black"
+        },
+        {
+            "type": "wm",
+            "key": "  ",
+            "format": "{2}",
+            "keyColor": "black"
+        },
+        {
+            "type": "shell",
+            "key": " $ ",
+            "format": "{2}",
+            "keyColor": "black"
+        },
+        {
+            "type": "terminal",
+            "key": "  ",
+            "format": "{1}",
+            "keyColor": "black"
+        },
+        {
+            "type": "custom",
+            "key": " ",
+            "format": "╰───────────────────────────────╯"
+        },
+        {
+            "type": "custom",
+            "format": "╭───────────────────────────────╮"
+        },
+        {
+            "type": "cpu",
+            "key": "  ",
+            "format": "{1}",
+            "keyColor": "black"
+        },
+        {
+            "type": "gpu",
+            "key": "  ",
+        
+            "keyColor": "black"
+        },
+        {
+            "type": "memory",
+            "key": "  ",
+            "keyColor": "black"
+        },
+        
+        {
+            "type": "packages",
+            "key": "  ",
+            "keyColor": "black"
+        },
+        {
+            "type": "custom",
+            "key": " ",
+            "format": "╰───────────────────────────────╯"
+        },
+        {
+            "type": "custom",
+            "format": "╭───────────────────────────────╮"
+        },
+        {
+            "type": "uptime",
+            "key": " 󰔚 ",
+            "keyColor": "black"
+        },
+        {
+            "type": "custom",
+            "key": " ",
+            "format": "╰───────────────────────────────╯"
+        },
+        {
+            "type": "custom",
+            "key": " ",
+            "format": "  \u001b[90m   \u001b[31m   \u001b[32m   \u001b[33m   \u001b[34m   \u001b[35m   \u001b[36m   \u001b[37m "
+        }
+    ]
+}
