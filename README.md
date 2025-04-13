@@ -4,7 +4,7 @@
 
 ## 📸 Preview
 
-> _Agregá acá tu imagen de preview:_
+
 
 ![Preview](/dotfiles/ScreanShoots/obsidian.png)
 
@@ -14,10 +14,10 @@
 
 | Sección        | Descripción                                  |
 |----------------|----------------------------------------------|
-| [📦 Installation](#installation) | Cómo instalar estos dotfiles en tu sistema |
-| [⚙️ Apps](#apps)              | Aplicaciones recomendadas para complementar |
-| [🔤 Fonts](#fonts)             | Tipografías utilizadas para un look uniforme |
-| [🖼️ Gallery](#gallery)         | Capturas de pantalla con el setup en acción |
+| [📦 Installation](#installation) 
+| [⚙️ Apps](#apps)              
+| [🔤 Fonts](#fonts)             
+| [🖼️ Gallery](#gallery)         
 
 ---
 
