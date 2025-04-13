@@ -11,11 +11,11 @@
 ---
 
 ## 📑 Contenido
-- [📦 Installation](#installation) 
-- [⚙️ Apps](#apps)              
-- [🔤 Fonts](#fonts)             
-- [🖼️ Gallery](#gallery)
-- [🖼️ Wallpapers](#wallpapers)          
+- [📦 Installation](#Installation) 
+- [⚙️ Apps](#Apps)              
+- [🔤 Fonts](#Fonts)             
+- [🖼️ Gallery](#Gallery)
+- [🖼️ Wallpapers](#Wallpapers)          
 
 ---
 
