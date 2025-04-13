@@ -6,7 +6,7 @@
 
 
 
-![Preview](/dotfiles/ScreanShoots/obsidian.png)
+![Preview](/ScreanShoots/obsidian.png)
 
 ---
 
@@ -27,3 +27,8 @@
 git clone https://github.com/tuusuario/dotfiles.git
 cd dotfiles
 ./install.sh
+```
+---
+
+## ⚙️ Apps
+
