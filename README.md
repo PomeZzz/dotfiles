@@ -51,6 +51,13 @@ nvim
 - [Icons](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 - [Folder Icon](https://github.com/xelser/gruvbox-papirus-folders)
 
+## Gnome Extensions
+- Blur my Shell
+- Color Picker
+- Just Perfection
+- Media Controls
+- Open Bar
+- Panel Note
 ---
 
 ## Fonts 🔤
