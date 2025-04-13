@@ -6,7 +6,7 @@
 
 > _Agregá acá tu imagen de preview:_
 
-![Preview](ruta/a/tu/imagen.png)
+![Preview](/dotfiles/ScreanShoots/obsidian.png)
 
 ---
 
