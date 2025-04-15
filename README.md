@@ -1,58 +1,74 @@
-# 🖥️ Dotfiles - Gnome Style Gruvbox
+
+# 🖥️ Dotfiles - Gnome Gruvbox Style
+
+Aesthetic and functional dotfiles tailored for the GNOME desktop environment, featuring the warm and cozy **Gruvbox** theme. This setup includes personalized configurations, extensions, fonts, and a minimal, elegant UI.
 
 ---
 
 ## 📸 Preview
 
-
-
 ![Preview](/ScreanShoots/obsidian.png)
 
 ---
 
-## 📑 Contenido
-- [📦 Installation](#Installation) 
-- [⚙️ Apps](#Apps)              
-- [🔤 Fonts](#Fonts)             
-- [🖼️ Gallery](#Gallery)
-- [🖼️ Wallpapers](#Wallpapers)          
+## 📑 Table of Contents
+
+- [📦 Installation](#installation)  
+- [⚙️ Applications](#applications)  
+- [🔤 Fonts](#fonts)  
+- [🖼️ Gallery](#gallery)  
+- [🖼️ Wallpapers](#wallpapers)
 
 ---
 
 ## 📦 Installation
----
-Install these and then copy my config files into your ~/.config folder
+
+Start by installing the required components, then copy the configuration files into your `~/.config` directory.
 
 ```bash
-# Clone the repo
-git clone https://github.com/usuario/repositorio.git
+# Clone this repository
+git clone https://github.com/username/repository.git
 
-# get on de files
-cd repositorio
+# Navigate to the project directory
+cd repository
 ```
-1: themes and icons
 
-instalar los themas y los icionos desde los links de [GTK](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme) y [Icons](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme), luego para configurar el folder icon color [Here](https://github.com/xelser/gruvbox-papirus-folders) lo explica paso a paso muy detalladamente, una vez todo descargado o simplemente extrayendo de mis archivos gtk-3.0 y gtk-4.0 tnedras que pegarlos en tu .config para que surta ejemplo, revisa bien que version de gnome tienes ya que hay veces que con simplemente ponerlo en las carpetas .theme y .icon ya deberia funcionar , pero al tener otra version que dificulta este proceso hay que ponerlo todo en gtk-4.0 de todos modos [Here](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme) esta muy bien explicado.
+### 1. Themes and Icons
 
-Si quieres mi terminal con descargar Warp 
-```
-# Descargar Warp desde la página oficial: https://warp.dev/linux
+Install the GTK theme and icon set from the following sources:
 
-# Ir a la carpeta donde se descargó el archivo .deb
-cd ~/Descargas
+- 🎨 [Gruvbox GTK Theme](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme)  
+- 🧩 [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)  
+- 🗂️ [Gruvbox Papirus Folder Icons](https://github.com/xelser/gruvbox-papirus-folders)
 
-# Instalar el archivo .deb (reemplazá el nombre si es diferente)
+Once downloaded, or by extracting the files from my `gtk-3.0` and `gtk-4.0` folders, place them into your `~/.config` directory. Make sure to check which version of GNOME you have; some versions may only require placing the files in the `.theme` and `.icons` folders, but others may require placing them in `gtk-4.0` for proper functionality. Full instructions are available [here](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme).
+
+### 2. Terminal Setup
+
+For the terminal, you can install **Warp** from the official website:
+
+```bash
+# Download Warp from the official site: https://warp.dev/linux
+
+# Go to the folder where the .deb file was downloaded
+cd ~/Downloads
+
+# Install the .deb file (replace the name if it's different)
 sudo dpkg -i warp-terminal.deb
 
-# Corregir dependencias si es necesario
+# Fix dependencies if necessary
 sudo apt-get install -f
-curl https://warp.dev/install.sh | bash
 
+# Alternatively, use the install script
+curl https://warp.dev/install.sh | bash
 ```
 
-Luego para los themes tienes que descargar la app de gnome extensions y agregarlas ahi, estan todas las extensiones que utilizo aqui debajo en una lista:
---
-## Gnome Extensions
+And paste my config in the **Warp File**
+
+### 3. GNOME Extensions
+
+To use the extensions I’ve configured, install the GNOME Extensions application, then add the following extensions:
+
 - Blur my Shell
 - Color Picker
 - Just Perfection
@@ -60,47 +76,66 @@ Luego para los themes tienes que descargar la app de gnome extensions y agregarl
 - Open Bar
 - Panel Note
 
+### 4. GNOME Extensions Config
+
+I configured them on my own the way I like, I still don't know how to share my extension configurations with others, but as soon as I figure it out, I'll update it in my repo.
+
 ---
-## Optional dependencies
+
+## Optional Dependencies
+
+You may need to install the following optional utilities:
+
+```bash
+cbonsai neofetch pokemon-colorscripts-git feh jp2a
 ```
-cbonsai neofetch pokemon-colorscripts-git feh jp2a 
+
+## Terminal Utilities
+
+```bash
+nvim
 ```
-## Terminal utils
-```
-nvim 
-```
----
-
-## ⚙️ Apps
-
-- VsCode (Hack Nerd Font, Gruvbox Material Modern theme)
-- Obsidian = markdown editor (obsidian gruvbox theme)
-- Spotify
-- nvim
-- Firefox (Gruvbox Theme)
-
-## GTK, Icon 
-- [Theme](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme)
-- [Icons](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
-- [Folder Icon](https://github.com/xelser/gruvbox-papirus-folders)
-
 
 ---
 
-## Fonts 🔤
---
-I mainly use "Ubuntu nerd fonts" for the system fonts, go to nerd fonts and grab them [Here](https://www.nerdfonts.com/).
+## ⚙️ Applications
+
+Here are the key applications I use for this setup:
+
+- **VSCode** (with Hack Nerd Font and Gruvbox Material Modern theme)
+- **Obsidian** (Markdown editor with Gruvbox theme)
+- **Spotify** (No Theme Yet)
+- **nvim**
+- **Discord** (No Theme yet)
+- **Firefox** (with Gruvbox theme)
+
+## GTK, Icon Themes
+
+- [Gruvbox GTK Theme](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme)
+- [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+- [Gruvbox Papirus Folder Icons](https://github.com/xelser/gruvbox-papirus-folders)
 
 ---
 
-## Gallery 🖼️
---
-![Preview](/ScreanShoots/FastFetch.png)
-![Preview](/ScreanShoots/Files.png)
-![Preview](/ScreanShoots/obsidian.png)
-![Preview](/ScreanShoots/wallpaper.png)
+## 🔤 Fonts
+
+For system fonts, I primarily use **Ubuntu Nerd Fonts**. You can download them from the official Nerd Fonts repository [here](https://www.nerdfonts.com/).
 
 ---
-## Wallpapers :D
 
-![Preview](/dotfiles/Wallpapers/dock.png) ![Preview](/dotfiles/Wallpapers/montana.jpg) ![Preview](/dotfiles/Wallpapers/wall.jpg) 
+## 🖼️ Gallery
+
+![FastFetch Screenshot](/ScreanShoots/FastFetch.png)
+![Files Screenshot](/ScreanShoots/Files.png)
+![Obsidian Screenshot](/ScreanShoots/obsidian.png)
+![Wallpaper Screenshot](/ScreanShoots/wallpaper.png)
+
+---
+
+## 🖼️ Wallpapers
+
+Enjoy these wallpapers to complement your setup:
+
+![Dock Wallpaper](/dotfiles/Wallpapers/dock.png) 
+![Montana Wallpaper](/dotfiles/Wallpapers/montana.jpg) 
+![Wall Wallpaper](/dotfiles/Wallpapers/wall.jpg)
