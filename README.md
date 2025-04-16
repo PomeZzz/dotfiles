@@ -65,10 +65,35 @@ curl https://warp.dev/install.sh | bash
 
 And paste my config in the **Warp File**
 
-### 3. GNOME Extensions
+### 3. GNOME Extensions && GNOME Extensions Config
 
-To use the extensions I’ve configured, install the GNOME Extensions application, then add the following extensions:
+```
+# 1 Clone the repo
+git clone https://github.com/PomeZzz/dotfiles.git
+cd repo location
 
+```
+
+
+```
+# 2 make the file executable
+chmod +x gnome-extensions-config.sh
+```
+
+```
+# 3  Imports de configuration
+./gnome-extensions-config.sh import
+
+```
+### 4. Install the necessary extensions
+
+This step is NOT automatic. The extensions.conf file only imports the settings, but does not install extensions if you don't already have them installed.
+💡 To install GNOME extensions:
+
+You can use the official extension store:
+🔗 https://extensions.gnome.org
+
+**List of Extensions**
 - Blur my Shell
 - Color Picker
 - Just Perfection
@@ -76,9 +101,6 @@ To use the extensions I’ve configured, install the GNOME Extensions applicatio
 - Open Bar
 - Panel Note
 
-### 4. GNOME Extensions Config
-
-I configured them on my own the way I like, I still don't know how to share my extension configurations with others, but as soon as I figure it out, I'll update it in my repo.
 
 ### 5. FastFetch set up
 
