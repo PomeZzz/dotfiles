@@ -80,6 +80,12 @@ To use the extensions I’ve configured, install the GNOME Extensions applicatio
 
 I configured them on my own the way I like, I still don't know how to share my extension configurations with others, but as soon as I figure it out, I'll update it in my repo.
 
+### 5. FastFetch set up
+
+First you have to download fastfetch on your terminal, Fastfetch official site [Here](https://github.com/fastfetch-cli/fastfetch)
+
+Once you have installed FastFetch, download the FastFetch folder from my dotfiles and replace your folder with mine to have my configuration.
+
 ---
 
 ## Optional Dependencies
