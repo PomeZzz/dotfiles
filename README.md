@@ -79,13 +79,7 @@ cd repo location
 # 2 make the file executable
 chmod +x gnome-extensions-config.sh
 ```
-
-```
-# 3  Imports de configuration
-./gnome-extensions-config.sh import
-
-```
-### 4. Install the necessary extensions
+### 3. Install the necessary extensions
 
 This step is NOT automatic. The extensions.conf file only imports the settings, but does not install extensions if you don't already have them installed.
 💡 To install GNOME extensions:
@@ -100,6 +94,14 @@ You can use the official extension store:
 - Media Controls
 - Open Bar
 - Panel Note
+
+```
+# 4 Imports de configuration
+./gnome-extensions-config.sh import
+
+```
+If you have the extensions installed and turned on, the settings should be applied automatically. Log out and log back in to see the effects.
+
 
 
 ### 5. FastFetch set up
