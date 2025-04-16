@@ -43,6 +43,8 @@ Install the GTK theme and icon set from the following sources:
 
 Once downloaded, or by extracting the files from my `gtk-3.0` and `gtk-4.0` folders, place them into your `~/.config` directory. Make sure to check which version of GNOME you have; some versions may only require placing the files in the `.theme` and `.icons` folders, but others may require placing them in `gtk-4.0` for proper functionality. Full instructions are available [here](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme).
 
+--
+
 ### 2. Terminal Setup
 
 For the terminal, you can install **Warp** from the official website:
@@ -65,6 +67,8 @@ curl https://warp.dev/install.sh | bash
 
 And paste my config in the **Warp File**
 
+--
+
 ### 3. GNOME Extensions && GNOME Extensions Config
 
 ```
@@ -79,7 +83,7 @@ cd repo location
 # 2 make the file executable
 chmod +x gnome-extensions-config.sh
 ```
-### 3. Install the necessary extensions
+#### 3. Install the necessary extensions
 
 This step is NOT automatic. The extensions.conf file only imports the settings, but does not install extensions if you don't already have them installed.
 💡 To install GNOME extensions:
@@ -102,7 +106,7 @@ You can use the official extension store:
 ```
 If you have the extensions installed and turned on, the settings should be applied automatically. Log out and log back in to see the effects.
 
-
+--
 
 ### 5. FastFetch set up
 
