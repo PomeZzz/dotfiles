@@ -163,7 +163,7 @@ For system fonts, I primarily use **Ubuntu Nerd Fonts**. You can download them f
 ![Files Screenshot](/ScreanShoots/Files.png)
 ![Obsidian Screenshot](/ScreanShoots/obsidian.png)
 ![Wallpaper Screenshot](/ScreanShoots/wallpaper.png)
-
+![Superfile Screenshot](/ScreanShoots/Superfile.png)
 ---
 
 ## 🖼️ Wallpapers
