@@ -121,7 +121,7 @@ Once you have installed FastFetch, download the FastFetch folder from my dotfile
 You may need to install the following optional utilities:
 
 ```bash
-cbonsai neofetch pokemon-colorscripts-git feh jp2a
+cbonsai neofetch pokemon-colorscripts-git feh jp2a htop
 ```
 
 ## Terminal Utilities
